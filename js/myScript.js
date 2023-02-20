@@ -9,17 +9,16 @@ body.style.height = "100vh";
 body.style.display = "flex";
 body.style.justifyContent = "center";
 body.style.alignItems = "center";
-body.style.backgroundColor = "black";
+body.style.backgroundColor = "white";
 body.style.fontFamily = "sans-serif";
 
 // creando main ---------
 let main = document.createElement("main");
-main.className = "main";
-main.style.width = "350px";
+main.style.width = "320px";
 main.style.height = "450px";
 main.style.backgroundColor = "#DC3F0B";
 main.style.textAlign = "center";
-main.style.borderRadius = "15px";
+main.style.borderRadius = "25px";
 main.style.position = "relative";
 main.style.display = "flex";
 main.style.flexDirection = "column";
@@ -40,9 +39,8 @@ imagen1.style.width = "40%";
 imagen1.style.borderRadius = "15px";
 imagen1.style.borderRadius = "50%";
 imagen1.style.position = "absolute";
-imagen1.style.top = "-20%";
-// imagen1.style.boxShadow = "rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px";
-
+imagen1.style.top = "-15%";
+imagen1.style.boxShadow = "rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px";
 
 //creando textContainer
 let textContainer = document.createElement('div');
@@ -50,8 +48,9 @@ textContainer.style.display = "flex";
 textContainer.style.flexDirection = "column";
 textContainer.style.alignItems = "center";
 textContainer.style.width = "85%";
+textContainer.style.marginTop = "30px";
 
-//creando iconsContainer
+//creando priceContainer
 let priceContainer = document.createElement('div');
 priceContainer.style.display = "flex";
 priceContainer.style.width = "85%";
@@ -67,7 +66,7 @@ h2.style.fontSize = "2rem"
 let text = document.createElement('p');
 text.innerText = "Enjoy our last and warm creation in this winter, with the best and family design";
 
-// creando priceTexto
+// creando tallaTexto
 let tallaText = document.createElement('p');
 tallaText.innerText = "S M L XL";
 
@@ -85,6 +84,7 @@ button.style.borderRadius = "15px";
 button.style.marginTop = "2rem";
 button.style.boxShadow = "rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px";
 button.style.fontWeight = "bold";
+button.style.cursor = "pointer";
 
 
 // añadiendo elementos al DOM
