@@ -35,13 +35,13 @@ imageContainer.style.justifyContent = "center";
 
 // Creando imagen -----------
 let imagen1 = document.createElement('img');
-imagen1.src = "../images/card.jpg";
+imagen1.src = "https://images.pexels.com/photos/1906818/pexels-photo-1906818.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1";
 imagen1.style.width = "40%";
 imagen1.style.borderRadius = "15px";
 imagen1.style.borderRadius = "50%";
 imagen1.style.position = "absolute";
 imagen1.style.top = "-20%";
-imagen1.style.boxShadow = "rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px";
+// imagen1.style.boxShadow = "rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px";
 
 
 //creando textContainer
